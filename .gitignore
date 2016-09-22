@@ -1,5 +1,6 @@
 /out/
 /libraries/
 /ardu.builds/
+/simulations/test/results/
 *_m.h
 *_m.cc
