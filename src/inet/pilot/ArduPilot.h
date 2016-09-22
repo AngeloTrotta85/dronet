@@ -16,7 +16,17 @@
 #ifndef INET_PILOT_ARDUPILOT_H_
 #define INET_PILOT_ARDUPILOT_H_
 
+#define TRY_ARDUCOPTER
+
 #include "inet/common/INETDefs.h"
+
+#ifdef TRY_ARDUCOPTER
+#define CONFIG_HAL_BOARD HAL_BOARD_SITL
+#define CONFIG_HAL_BOARD_SUBTYPE HAL_BOARD_SUBTYPE_NONE
+
+#include <ArduCopter/Copter.h>
+#endif
+
 
 namespace inet {
 
@@ -36,6 +46,10 @@ protected:
 protected:
   // The loop timer.
   cMessage *loopTimer = nullptr;
+
+#ifdef TRY_ARDUCOPTER
+  Copter copter;
+#endif
 };
 
 

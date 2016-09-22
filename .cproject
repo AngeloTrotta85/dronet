@@ -24,22 +24,27 @@
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.282856111" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.base.718464215" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.base">
 								<option id="gnu.cpp.compiler.option.include.paths.1687730240" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dronet/ardu.builds/ArduCopter.build/libraries}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dronet/ardu.builds/ArduCopter.build/libraries/GCS_MAVLink}&quot;"/>
 									<listOptionValue builtIn="false" value="/home/angelo/git/ardupilot"/>
 									<listOptionValue builtIn="false" value="/home/angelo/git/ardupilot/libraries"/>
-									<listOptionValue builtIn="false" value="/home/angelo/Programs/omnetpp-5.0/samples/dronet/libraries/GCS_MAVLink"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1693275609" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.base.1103304383" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.base">
 								<option id="gnu.c.compiler.option.include.paths.906603876" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dronet/ardu.builds/ArduCopter.build/libraries}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dronet/ardu.builds/ArduCopter.build/libraries/GCS_MAVLink}&quot;"/>
 									<listOptionValue builtIn="false" value="/home/angelo/git/ardupilot"/>
 									<listOptionValue builtIn="false" value="/home/angelo/git/ardupilot/libraries"/>
-									<listOptionValue builtIn="false" value="/home/angelo/Programs/omnetpp-5.0/samples/dronet/libraries/GCS_MAVLink"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.586341616" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.1154647620" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.base.1615374725" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.base">
+								<option id="gnu.cpp.link.option.paths.8693694" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="/home/angelo/git/dronet/ardu.builds/ArduCopter.build"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1390923666" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -47,9 +52,10 @@
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.base.2123631619" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
 								<option id="gnu.both.asm.option.include.paths.665719482" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dronet/ardu.builds/ArduCopter.build/libraries}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dronet/ardu.builds/ArduCopter.build/libraries/GCS_MAVLink}&quot;"/>
 									<listOptionValue builtIn="false" value="/home/angelo/git/ardupilot"/>
 									<listOptionValue builtIn="false" value="/home/angelo/git/ardupilot/libraries"/>
-									<listOptionValue builtIn="false" value="/home/angelo/Programs/omnetpp-5.0/samples/dronet/libraries/GCS_MAVLink"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.650195083" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
@@ -90,6 +96,10 @@
 									<listOptionValue builtIn="false" value="/home/angelo/git/ardupilot/libraries"/>
 									<listOptionValue builtIn="false" value="/home/angelo/git/ardupilot/modules/PX4Firmware/mavlink"/>
 									<listOptionValue builtIn="false" value="/home/angelo/Programs/omnetpp-5.0/samples/dronet/libraries/GCS_MAVLink"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dronet/ardu.builds/ArduCopter.build/libraries}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ardupilot}&quot;"/>
+									<listOptionValue builtIn="false" value="/home/angelo/git/dronet/ardu.builds/ArduCopter.build/libraries/GCS_MAVLink/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dronet/ardu.builds/ArduCopter.build/libraries/GCS_MAVLink/include}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.67682361" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
@@ -99,11 +109,20 @@
 									<listOptionValue builtIn="false" value="/home/angelo/git/ardupilot/libraries"/>
 									<listOptionValue builtIn="false" value="/home/angelo/git/ardupilot/modules/PX4Firmware/mavlink"/>
 									<listOptionValue builtIn="false" value="/home/angelo/Programs/omnetpp-5.0/samples/dronet/libraries/GCS_MAVLink"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dronet/ardu.builds/ArduCopter.build/libraries}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ardupilot}&quot;"/>
+									<listOptionValue builtIn="false" value="/home/angelo/git/dronet/ardu.builds/ArduCopter.build/libraries/GCS_MAVLink/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dronet/ardu.builds/ArduCopter.build/libraries/GCS_MAVLink/include}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.638331768" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.757877791" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.base.1567728634" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.base">
+								<option id="gnu.cpp.link.option.paths.132633004" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="/home/angelo/git/dronet/ardu.builds"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dronet/ardu.builds/ArduCopter.build}&quot;"/>
+									<listOptionValue builtIn="false" value="/home/angelo/git/dronet/ardu.builds/ArduCopter.build"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.2139816086" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -115,6 +134,10 @@
 									<listOptionValue builtIn="false" value="/home/angelo/git/ardupilot/libraries"/>
 									<listOptionValue builtIn="false" value="/home/angelo/git/ardupilot/modules/PX4Firmware/mavlink"/>
 									<listOptionValue builtIn="false" value="/home/angelo/Programs/omnetpp-5.0/samples/dronet/libraries/GCS_MAVLink"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dronet/ardu.builds/ArduCopter.build/libraries}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ardupilot}&quot;"/>
+									<listOptionValue builtIn="false" value="/home/angelo/git/dronet/ardu.builds/ArduCopter.build/libraries/GCS_MAVLink/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dronet/ardu.builds/ArduCopter.build/libraries/GCS_MAVLink/include}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1356321761" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>

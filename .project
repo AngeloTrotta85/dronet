@@ -3,7 +3,7 @@
 	<name>dronet</name>
 	<comment></comment>
 	<projects>
-		<project>ardupilot</project>
+		<project>arducopter</project>
 		<project>inet</project>
 	</projects>
 	<buildSpec>

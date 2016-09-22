@@ -15,11 +15,6 @@
 
 #include <pilot/ArduPilot.h>
 
-#define CONFIG_HAL_BOARD HAL_BOARD_SITL
-#define CONFIG_HAL_BOARD_SUBTYPE HAL_BOARD_SUBTYPE_NONE
-
-//#include <ArduCopter/Copter.h>
-
 namespace inet {
 
 Define_Module(ArduPilot);
@@ -55,11 +50,15 @@ void ArduPilot::handleSelfMessage(cMessage *message) {
 }
 
 void ArduPilot::mainInit(void) {
-
+#ifdef TRY_ARDUCOPTER
+    copter.setup();
+#endif
 }
 
 void ArduPilot::mainLoop(void) {
-
+#ifdef TRY_ARDUCOPTER
+    copter.loop();
+#endif
 }
 
 } /* namespace inet */
