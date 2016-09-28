@@ -16,7 +16,7 @@
 #ifndef INET_PILOT_ARDUPILOT_H_
 #define INET_PILOT_ARDUPILOT_H_
 
-#define TRY_ARDUCOPTER
+//#define TRY_ARDUCOPTER
 
 #include "inet/common/INETDefs.h"
 
