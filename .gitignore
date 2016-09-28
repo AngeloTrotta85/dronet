@@ -2,5 +2,6 @@
 /libraries/
 /ardu.builds/
 /simulations/test/results/
+/src/sitl
 *_m.h
 *_m.cc
